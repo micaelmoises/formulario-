@@ -1,0 +1,223 @@
+    <!DOCTYPE html>
+    <html lang="pt_br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="formi.css"> 
+        <title>Formulario!</title>
+    </head>
+    <body>
+                    
+                <form action="https://formsubmit.co/michaelmoises6@gmail.com" method="POST">
+                    <input type="hidden" name="_next" value="enviado.html">
+                    <input type="hidden" name="_cc" value="michael_moises2011@hotmail.com">
+                    <input type="hidden" name="_autoresponse" value="Recebemos seu formulario!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <h1>Informações do Estabelecimento</h1>
+               
+        <fieldset> <br> 
+            <div> <text><strong>Selecione o tipo de cadastro:</strong></text>
+                <br>
+                <label>
+                <input type="radio" name="tcadastro" id="tcadastro">Pessoa Fisica</label>
+    <label>
+        <input type="radio" name="tcadastro" id="tcadastro">Pessoa Juridica 
+    </label>
+    <br>
+    <label><strong>Nome completo:</strong></label>
+    <input type="text" name="Nome" id="nome">
+    <div> <label><Strong>Data de nascimento:</Strong></label>
+        <input type="date" class="data" id="data" required>
+    </div>
+    </div>    
+    <div> <label><strong>Nome Fantasia:</strong></label>
+        <input type="text" name="estabelecimento" id="estabelecimento" required>
+
+    </div>
+    <div> <label><strong>Razão Social:</strong></label>
+        <input type="text" name="rsocial" id="rsocial">
+
+    </div>
+    <div> <label><strong>CPF</strong></label>
+        <input type="text" name="cpf" id="cpf" required>
+    </div>
+    </div>
+    <div> <label><strong>CNPJ</strong>:</label>
+    <input type="text" name="cnpj" id="cnpj" required>
+    </div>
+    
+    <div> <label><Strong>e-mail:</Strong></label>
+        <input type="email" name="email" id="email">
+        </div>
+        
+        <div> <label for="telefone"><strong>Telefone para contato:</strong></label>
+            <input type="tel" id="telefone" class="inputUser" required placeholder="(xx) xxxxx-xxxx">
+        </div>
+        <div> <label><strong>Telefone para contato:</strong></label>
+            <input type="tel" class="inputUser" id="telefone2" required placeholder="(xx) xxxxx-xxxx">
+        </div>
+        <div> <label><strong>Telefone para adicional:</strong></label>
+            <input type="tel" class="inputUser" id="telefone3"  placeholder="(xx) xxxxx-xxxx">
+        </div>
+        <label><strong>informe sua chave pix:</strong></label>
+    <input type="text" name="cpix" id="cpix"><br>
+    <label><strong>Nome do titular da chave pix:</strong></label>
+    <input type="text" name="tpix" id="tpix">
+        <div> <label><strong>Segumento de Mercado:</strong> </label>
+            <input list="f_seguimento" name="f_seg">
+            <datalist id="f_seguimento">
+                <option value="Açaiteria"></option>
+                <option value="Açougue"></option>
+                <option value="Adega"></option>
+                <option value="Bar"></option>
+                <option value="Casa de Bolos"></option>
+                <option value="Cafeteria"></option>
+                <option value="Churrascaria"> </option>
+                <option value="Comida Árabe"></option>
+                <option value="Comida Oriental"></option>
+                <option value="Confeitaria"></option>
+                <option value="Empório"></option>
+                <option value="Esfiharia"></option>
+                <option value="Espetinhos"></option>
+                <option value="Hamburgueria"></option>
+                <option value="Lanchonete"></option>
+                <option value="Pastelaria"></option>
+                <option value="Petiscaria"> </option>
+                <option value="Pizzaria">  </option>
+                <option value="Restaurante"></option>
+                <option value="Rotisseria"></option>
+                <option value="Sorveteria"></option>
+                <option value="Tabacaria"></option>
+                <option value="Vegano"> </option>
+                <option value="Padaria"> </option>
+                <option value="Marmitaria"></option>
+                <option value="Outro"></option>
+            </datalist>
+            
+             
+        </div>
+        <br>
+        </fieldset>
+
+        <h2>Informações de Endereço</h2>
+            <fieldset>  
+                <div> <label><strong>Cep:</strong></label>
+                    <input type="text" name="cep" id="cep" required>    
+                </div>
+                <div> <label><strong>Endereço:</strong></label>
+                    <input type="text" name="endereço" id="endereço" required>    
+                </div>
+                <div> <label><strong>Nº:</strong></label>
+                    <input type="number" name="number" id="numero" required>    
+                </div>
+                <div> <label><strong>Bairro:</strong></label>
+                    <input type="text" name="bairro" id="bairro" required>    
+                </div>
+                <div> <label><strong>Estado:</strong></label>
+                    <input list="estado" name="uf">
+            <datalist id="estado">
+                <option value="AC"></option>
+                <option value="AL"></option>
+                <option value="AP"></option>
+                <option value="AM"></option>
+                <option value="BA"></option>
+                <option value="CE"></option>
+                <option value="DF"> </option>
+                <option value="ES"></option>
+                <option value="GO"></option>
+                <option value="MA"></option>
+                <option value="MT"></option>
+                <option value="MS"></option>
+                <option value="MG"></option>
+                <option value="PA"></option>
+                <option value="PB"></option>
+                <option value="PR"></option>
+                <option value="PE"> </option>
+                <option value="PI">  </option>
+                <option value="RJ"></option>
+                <option value="RN"></option>
+                <option value="RS"></option>
+                <option value="RO"></option>
+                <option value="RR"> </option>
+                <option value="SC"> </option>
+                <option value="SP"></option>
+                <option value="SE"></option>
+                <option value="TO"></option>
+            </datalist>    
+                </div>
+                <div> <label><strong>Cidade:</strong></label>
+                    <input type="text" name="cidade" id="cidade" required>    
+                </div>
+                <br>   
+            </fieldset>
+
+        <h2>Informações do atendimento</h2>
+            <fieldset>
+                <div> <text>Tempo minimo e maximo para o atendimento no local:</text>
+                    <br>
+                    <input type="text" name="min1" id="min1">
+                    <input type="text" name="max1" id="max1">    
+        
+                </div>
+                <div> <text>Tempo minimo e maximo para retirada:</text>
+                    <br>
+                    <input type="text" name="min2" id="min2">
+                    <input type="text" name="max2" id="max2">    
+        
+                </div>
+                <div> <text>Tempo minimo e maximo para entrega:</text>
+                    <br>
+                    <input type="text" name="min2" id="min2">
+                    <input type="text" name="max2" id="max2">    
+        
+                </div>
+                <br>
+            </fieldset>
+            <h2>Informações de Expediente</h2>
+            <div> <label><strong>Informe o expediente do seu Estabelecimento:</strong></label>
+                <br><br>
+            
+                <label>
+                    Segunda-Feira 
+                    <input type="time" name="h1_seg" id="ihoras">
+                    <input type="time" name="h2_seg" id="fhoras"><br>
+                     Terça-Feira
+                    <input type="time" name="h1_ter" id="ihoras">
+                    <input type="time" name="h2_ter" id="fhoras"><br>
+                    Quarta-Feira
+                    <input type="time" name="h1_qua" id="ihoras">
+                    <input type="time" name="h2_qua" id="fhoras"><br>
+                    Quinta-Feira
+                    <input type="time" name="h1_qui" id="ihoras">
+                    <input type="time" name="h2_qui" id="fhoras"><br>
+                     Sexta-Feira 
+                    <input type="time" name="h1_sex" id="ihoras">
+                    <input type="time" name="h2_sex" id="fhoras"><br>
+                     Sabado
+                    <input type="time" name="h1_sab" id="ihoras">
+                    <input type="time" name="h2_sab" id="fhoras"><br>
+                    Domingo
+                    <input type="time" name="h1_don" id="ihoras">
+                    <input type="time" name="h2_don" id="fhoras"><br>
+                    
+                </label>
+                    
+              
+        
+            
+                <br>   
+                <h2>Informações de Login</h2>
+                    <fieldset>
+                        <div> <label>Usuario:</label>
+                            <input type="text" name="usuario" id="usuario" required>    
+                        </div>
+                        <div> <label>Senha:</label>
+                            <input type="password" name="f_senha" id="senha" pattern="[a-zA-Z0-9] {8}" required>    
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+
+        
+    </body>
+    </html> 

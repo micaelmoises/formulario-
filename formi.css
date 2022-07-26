@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: #f0f8ff;
+    justify-self:  center;
+    font-family: sans-serif;
+}
+h1{font-family: sans-serif;
+    color: #380361;
+    margin-left: 7%; 
+    text-align: left;
+
+}
+body{
+    font-size: 1.1em;
+    color: #380361;
+    margin-left: 15%; 
+    margin-right: 15%;
+    margin-top: 2%;
+    background-color: #f0f8ff;
+    text-align: left;
+}
+
+fieldset{
+    border: 0;
+    border-top: 10em;
+    text-align: left;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.2em;
+    border-color: #380361;
+    text-align: left;
+}
+
+button {
+    font: 2em sans-serif;
+    color: #f0f8ff;
+    margin: 20%;
+    padding: 1%;
+    background-color: #380361;
+    color: #f0f8ff;
+}
+
